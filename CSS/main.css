@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1vh;
+
+}
+:root{
+    --typo-color : #251f1f;
+    --bg : #f2f2f2;
+    --bs-navbar-color: #251f1f;
+
+}
+body, html {
+    height: 100vh;
+}
+h1, h2{
+    font-family:'Flamenco', cursive;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--typo-color);
+    transition: all .1s ease-in-out; 
+}
+
+
+p , a {
+    font-family:'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+a:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.footer{
+    height: 5rem;
+    color: #F0F0F0;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+
+}
+.footer p {
+    padding: 0;
+    margin: 0;
+}

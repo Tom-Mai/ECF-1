@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/pexels-wouter-de-jong-571169.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    padding-top: 30vh;
+    width: 50%;
+    max-width: 50rem;
+}
+
+.card{
+    border: none;
+}
+.header{
+    background-color: var(--bg);
+}
