@@ -4,36 +4,43 @@ const display = [
   {
     // TODO : mettre photos à la même taille pour icone.
     id: 1,
+    category: "family",
     img: "../images/family/family1.jpg",
     alt: "photo de bébé",
   },
   {
     id: 2,
+    category: "family",
     img: "../images/family/family2.jpg",
     alt: "photo de famille",
   },
   {
     id: 3,
+    category: "family",
     img: "../images/family/family4.jpg",
     alt: "photo de Mariage",
   },
   {
-    id: 3,
+    id: 4,
+    category: "family",
     img: "../images/family/family5.jpg",
     alt: "photo de Mariage",
   },
   {
-    id: 3,
+    id: 5,
+    category: "family",
     img: "../images/family/family6.jpg",
     alt: "photo de Mariage",
   },
   {
-    id: 3,
+    id: 6,
+    category: "family",
     img: "../images/family/family7.jpg",
     alt: "photo de Mariage",
   },
   {
-    id: 3,
+    id: 7,
+    category: "family",
     img: "../images/family/family9.jpg",
     alt: "photo de Mariage",
   },
@@ -43,7 +50,6 @@ const sectionCenter = document.querySelector(".maincontent");
 
 onload = (event) => {
     displayPhotoItems(display);
-  //on recupere le tableau et le mettons en ARRAY, ensuite pour chaque item, on return le code html précédemment fait, et pour chaque "UNIQUE" on va récuperer la donnée dans le tablea, ici, item pour item du tableau et pour chaque item, l'img.
 };
 
 function displayPhotoItems(displayItems) {
@@ -58,4 +64,4 @@ function displayPhotoItems(displayItems) {
   displayPhoto = displayPhoto.join("");
   //on met en HTML ce que nous venons de faire. ET VOILA
   sectionCenter.innerHTML = displayPhoto;
-}
+};
