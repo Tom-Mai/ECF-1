@@ -1,0 +1,43 @@
+
+h2{
+    font-size: 5rem;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+@media (min-width:769px){
+    h2{
+        font-size: 10rem;
+    }
+}
+/* BORDER */
+.maincontent{
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+}
+@media (min-width:770px){ 
+ .maincontent{
+    border: 0.125em solid #F0F0F0;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    /* overflow: hidden; */
+    box-shadow: 1rem -0.5rem 100rem #e8e8e8;
+}
+}
+.card{
+    transition: all .5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+
+}
+
+.pricetitle h2:hover{
+    cursor: default;
+}
+.pricetitle h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 25%;
+
+}
