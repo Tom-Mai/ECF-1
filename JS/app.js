@@ -4,19 +4,43 @@ const display = [
     {
         // TODO : mettre photos à la même taille pour icone.
         id: 1,
-        img: "../images/baby.jpg",
+        img: "../images/family/family1.jpg",
         alt: "photo de bébé",
 
     },
     {
         id: 2,
-        img: "../images/Family.jpg",
+        img: "../images/family/family2.jpg",
         alt: "photo de famille",
 
     },
     {
         id: 3,
-        img: "../images/Mariage.jpg",
+        img: "../images/family/family4.jpg",
+        alt: "photo de Mariage",
+
+    },
+    {
+        id: 3,
+        img: "../images/family/family5.jpg",
+        alt: "photo de Mariage",
+
+    },
+    {
+        id: 3,
+        img: "../images/family/family6.jpg",
+        alt: "photo de Mariage",
+
+    },
+    {
+        id: 3,
+        img: "../images/family/family7.jpg",
+        alt: "photo de Mariage",
+
+    },
+    {
+        id: 3,
+        img: "../images/family/family9.jpg",
         alt: "photo de Mariage",
 
     },
