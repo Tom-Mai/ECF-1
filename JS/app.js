@@ -1,8 +1,8 @@
 // items
-// ci dessous : tableau comprenant mes données à faire apparaitre. ici, nous avons des photos.
+// ci dessous : Array comprenant mes données à faire apparaitre. ici, nous avons des photos.
 const display = [
-  {
-    // TODO : mettre photos à la même taille pour icone.
+//   FAMILY CATEGORY
+    {
     id: 1,
     category: "family",
     img: "../images/family/family1.jpg",
@@ -42,6 +42,55 @@ const display = [
     id: 7,
     category: "family",
     img: "../images/family/family9.jpg",
+    alt: "photo de Mariage",
+  },
+//   MARIAGE CATEGORY
+{
+    id: 8,
+    category: "mariage",
+    img: "../images/mariage/mariage1.jpg",
+    alt: "photo de Mariage",
+  },
+{
+    id: 9,
+    category: "mariage",
+    img: "../images/mariage/mariage2.jpg",
+    alt: "photo de Mariage",
+  },
+{
+    id: 10,
+    category: "mariage",
+    img: "../images/mariage/mariage3.jpg",
+    alt: "photo de Mariage",
+  },
+{
+    id: 11,
+    category: "mariage",
+    img: "../images/mariage/mariage4.jpg",
+    alt: "photo de Mariage",
+  },
+{
+    id: 12,
+    category: "mariage",
+    img: "../images/mariage/mariage5.jpg",
+    alt: "photo de Mariage",
+  },
+{
+    id: 13,
+    category: "mariage",
+    img: "../images/mariage/mariage6.jpg",
+    alt: "photo de Mariage",
+  },
+{
+    id: 14,
+    category: "mariage",
+    img: "../images/mariage/mariage7.jpg",
+    alt: "photo de Mariage",
+  },
+{
+    id: 15,
+    category: "mariage",
+    img: "../images/mariage/mariage8.jpg",
     alt: "photo de Mariage",
   },
 ];
