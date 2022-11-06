@@ -1,8 +1,8 @@
 // items
 // ci dessous : Array comprenant mes données à faire apparaitre. ici, nous avons des photos.
 const display = [
-//   FAMILY CATEGORY
-    {
+  //   FAMILY CATEGORY
+  {
     id: 1,
     category: "family",
     img: "../images/family/family1.jpg",
@@ -44,50 +44,50 @@ const display = [
     img: "../images/family/family9.jpg",
     alt: "photo de Mariage",
   },
-//   MARIAGE CATEGORY
-{
+  //   MARIAGE CATEGORY
+  {
     id: 8,
     category: "mariage",
     img: "../images/mariage/mariage1.jpg",
     alt: "photo de Mariage",
   },
-{
+  {
     id: 9,
     category: "mariage",
     img: "../images/mariage/mariage2.jpg",
     alt: "photo de Mariage",
   },
-{
+  {
     id: 10,
     category: "mariage",
     img: "../images/mariage/mariage3.jpg",
     alt: "photo de Mariage",
   },
-{
+  {
     id: 11,
     category: "mariage",
     img: "../images/mariage/mariage4.jpg",
     alt: "photo de Mariage",
   },
-{
+  {
     id: 12,
     category: "mariage",
     img: "../images/mariage/mariage5.jpg",
     alt: "photo de Mariage",
   },
-{
+  {
     id: 13,
     category: "mariage",
     img: "../images/mariage/mariage6.jpg",
     alt: "photo de Mariage",
   },
-{
+  {
     id: 14,
     category: "mariage",
     img: "../images/mariage/mariage7.jpg",
     alt: "photo de Mariage",
   },
-{
+  {
     id: 15,
     category: "mariage",
     img: "../images/mariage/mariage8.jpg",
@@ -97,9 +97,43 @@ const display = [
 // ci dessous on recupere la section dans laquelle nous allons implanter nos photos via notre code
 const sectionCenter = document.querySelector(".maincontent");
 
+const filtreBtns = document.querySelectorAll(".filter-btn");
+
+//load items
+
 onload = (event) => {
-    displayPhotoItems(display);
+  displayPhotoItems(display);
+
+  const categories = display.reduce(
+    function (values, item) {
+      if (!values.includes(item.category)) {
+        values.push(item.category);
+      }
+      return values;
+    },
+    ["all"]
+  );
+  console.log(categories);
 };
+
+//filter items
+
+filtreBtns.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const category = e.currentTarget.dataset.id;
+    const displaycategory = display.filter(function (displayItems) {
+      if (displayItems.category === category) {
+        return displayItems;
+      }
+    });
+
+    if (category === "all") {
+      displayPhotoItems(display);
+    } else {
+      displayPhotoItems(displaycategory);
+    }
+  });
+});
 
 function displayPhotoItems(displayItems) {
   let displayPhoto = displayItems.map(function (item) {
@@ -113,4 +147,4 @@ function displayPhotoItems(displayItems) {
   displayPhoto = displayPhoto.join("");
   //on met en HTML ce que nous venons de faire. ET VOILA
   sectionCenter.innerHTML = displayPhoto;
-};
+}
