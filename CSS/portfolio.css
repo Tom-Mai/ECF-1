@@ -22,13 +22,14 @@ h2{
 
 /* BUTTON */
 .btn{
-    border: 0.125em solid #F0F0F0;
-    overflow: hidden;
-    box-shadow: 1em -0.5em 16px #e8e8e8;
-    transition: all ease-in-out;
+    transition: .5 all ease-in-out;
 }
 .btn:hover{
  transform: scale(1.1);
+ background-color:#DCDCDC;
+}
+.btn:focus{
+    background-color: #DCDCDC;
 }
 
 /* if a black border is active when we mousedown on the btn its because there wasn't this css class ->  */
