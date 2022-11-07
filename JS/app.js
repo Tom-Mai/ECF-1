@@ -1,4 +1,6 @@
-// items
+// TODO : remove this array and put it in JSON format.
+
+
 // ci dessous : Array comprenant mes données à faire apparaitre. ici, nous avons des photos.
 const display = [
   // COUPLE CATEGORY
@@ -192,117 +194,117 @@ const display = [
   },
   //BABY CATEGORY
   {
-    id: 16,
+    id: 32,
     category: "Nouveau-né",
     img: "../images/bebe/bebe1.jpg",
     alt: "Photo de nouveau-né",
   },
   {
-    id: 17,
+    id: 33,
     category: "Nouveau-né",
     img: "../images/bebe/bebe2.jpg",
     alt: "Photo de nouveau-né",
   },
   {
-    id: 18,
+    id: 34,
     category: "Nouveau-né",
     img: "../images/bebe/bebe3.jpg",
     alt: "Photo de nouveau-né",
   },
   {
-    id: 19,
+    id: 35,
     category: "Nouveau-né",
     img: "../images/bebe/bebe4.jpg",
     alt: "Photo de nouveau-né",
   },
   {
-    id: 20,
+    id: 36,
     category: "Nouveau-né",
     img: "../images/bebe/bebe5.jpg",
     alt: "Photo de nouveau-né",
   },
   {
-    id: 21,
+    id: 37,
     category: "Nouveau-né",
     img: "../images/bebe/bebe6.jpg",
     alt: "Photo de nouveau-né",
   },
   {
-    id: 22,
+    id: 38,
     category: "Nouveau-né",
     img: "../images/bebe/bebe7.jpg",
     alt: "Photo de nouveau-né",
   },
   //BAPTEME CATEGORY
   {
-    id: 23,
+    id: 39,
     category: "Baptême",
     img: "../images/bapteme/bapteme1.jpg",
     alt: "Photo de baptême",
   },
   {
-    id: 24,
+    id: 40,
     category: "Baptême",
     img: "../images/bapteme/bapteme2.jpg",
     alt: "Photo de baptême",
     },
   {
-    id: 25,
+    id: 41,
     category: "Baptême",
     img: "../images/bapteme/bapteme3.jpg",
     alt: "Photo de baptême",
     },
   {
-    id: 26,
+    id: 42,
     category: "Baptême",
     img: "../images/bapteme/bapteme4.jpg",
     alt: "Photo de baptême",
     },
   {
-    id: 27,
+    id: 43,
     category: "Baptême",
     img: "../images/bapteme/bapteme5.jpg",
     alt: "Photo de baptême",
     },
   //   FAMILY CATEGORY
   {
-    id: 1,
+    id: 44,
     category: "Family",
     img: "../images/family/family1.jpg",
     alt: "photo de bébé",
   },
   {
-    id: 2,
+    id: 45,
     category: "Family",
     img: "../images/family/family2.jpg",
     alt: "photo de famille",
   },
   {
-    id: 3,
+    id: 46,
     category: "Family",
     img: "../images/family/family4.jpg",
     alt: "Photo de famille",
   },
   {
-    id: 4,
+    id: 47,
     category: "Family",
     img: "../images/family/family5.jpg",
     alt: "Photo de famille",
   },
   {
-    id: 5,
+    id: 48,
     category: "Family",
     img: "../images/family/family6.jpg",
     alt: "Photo de famille",
   },
   {
-    id: 6,
+    id: 49,
     category: "Family",
     img: "../images/family/family7.jpg",
     alt: "Photo de famille",
   },
   {
-    id: 7,
+    id: 50,
     category: "Family",
     img: "../images/family/family9.jpg",
     alt: "Photo de famille",
