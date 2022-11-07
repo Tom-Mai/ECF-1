@@ -1,6 +1,269 @@
 // items
 // ci dessous : Array comprenant mes données à faire apparaitre. ici, nous avons des photos.
 const display = [
+  // COUPLE CATEGORY
+{
+  id: 1,
+  category: "Couple",
+  img: "../images/couple/couple1.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 2,
+  category: "Couple",
+  img: "../images/couple/couple2.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 3,
+  category: "Couple",
+  img: "../images/couple/couple3.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 4,
+  category: "Couple",
+  img: "../images/couple/couple4.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 5,
+  category: "Couple",
+  img: "../images/couple/couple5.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 6,
+  category: "Couple",
+  img: "../images/couple/couple6.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 7,
+  category: "Couple",
+  img: "../images/couple/couple7.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 8,
+  category: "Couple",
+  img: "../images/couple/couple8.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 9,
+  category: "Couple",
+  img: "../images/couple/couple9.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 10,
+  category: "Couple",
+  img: "../images/couple/couple10.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 11,
+  category: "Couple",
+  img: "../images/couple/couple11.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 12,
+  category: "Couple",
+  img: "../images/couple/couple12.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 13,
+  category: "Couple",
+  img: "../images/couple/couple13.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 14,
+  category: "Couple",
+  img: "../images/couple/couple14.jpg",
+  alt: "Photo de couple",
+  },
+{
+  id: 15,
+  category: "Couple",
+  img: "../images/couple/couple15.jpg",
+  alt: "Photo de couple",
+  },
+  //   MARIAGE CATEGORY
+  {
+    id: 16,
+    category: "Mariage",
+    img: "../images/mariage/mariage1.jpg",
+    alt: "Photo de Mariage",
+  },
+  {
+    id: 17,
+    category: "Mariage",
+    img: "../images/mariage/mariage2.jpg",
+    alt: "Photo de Mariage",
+  },
+  {
+    id: 18,
+    category: "Mariage",
+    img: "../images/mariage/mariage3.jpg",
+    alt: "Photo de Mariage",
+  },
+  {
+    id: 19,
+    category: "Mariage",
+    img: "../images/mariage/mariage4.jpg",
+    alt: "Photo de Mariage",
+  },
+  {
+    id: 20,
+    category: "Mariage",
+    img: "../images/mariage/mariage5.jpg",
+    alt: "Photo de Mariage",
+  },
+  {
+    id: 21,
+    category: "Mariage",
+    img: "../images/mariage/mariage6.jpg",
+    alt: "Photo de Mariage",
+  },
+  {
+    id: 22,
+    category: "Mariage",
+    img: "../images/mariage/mariage7.jpg",
+    alt: "Photo de Mariage",
+  },
+  {
+    id: 23,
+    category: "Mariage",
+    img: "../images/mariage/mariage8.jpg",
+    alt: "Photo de Mariage",
+  },
+  //PREGNANT CATEGORY
+  {
+    id: 24,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse1.jpg",
+    alt: "Photo de grossesse",
+  },
+  {
+    id: 25,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse2.jpg",
+    alt: "Photo de grossesse",
+  },
+  {
+    id: 26,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse3.jpg",
+    alt: "Photo de grossesse",
+  },
+  {
+    id: 27,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse4.jpg",
+    alt: "Photo de grossesse",
+  },
+  {
+    id: 28,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse5.jpg",
+    alt: "Photo de grossesse",
+  },
+  {
+    id: 29,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse6.jpg",
+    alt: "Photo de grossesse",
+  },
+  {
+    id: 30,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse7.jpg",
+    alt: "Photo de grossesse",
+  },
+  {
+    id: 31,
+    category: "Grossesse",
+    img: "../images/grossesse/grossesse8.jpg",
+    alt: "Photo de grossesse",
+  },
+  //BABY CATEGORY
+  {
+    id: 16,
+    category: "Nouveau-né",
+    img: "../images/bebe/bebe1.jpg",
+    alt: "Photo de nouveau-né",
+  },
+  {
+    id: 17,
+    category: "Nouveau-né",
+    img: "../images/bebe/bebe2.jpg",
+    alt: "Photo de nouveau-né",
+  },
+  {
+    id: 18,
+    category: "Nouveau-né",
+    img: "../images/bebe/bebe3.jpg",
+    alt: "Photo de nouveau-né",
+  },
+  {
+    id: 19,
+    category: "Nouveau-né",
+    img: "../images/bebe/bebe4.jpg",
+    alt: "Photo de nouveau-né",
+  },
+  {
+    id: 20,
+    category: "Nouveau-né",
+    img: "../images/bebe/bebe5.jpg",
+    alt: "Photo de nouveau-né",
+  },
+  {
+    id: 21,
+    category: "Nouveau-né",
+    img: "../images/bebe/bebe6.jpg",
+    alt: "Photo de nouveau-né",
+  },
+  {
+    id: 22,
+    category: "Nouveau-né",
+    img: "../images/bebe/bebe7.jpg",
+    alt: "Photo de nouveau-né",
+  },
+  //BAPTEME CATEGORY
+  {
+    id: 23,
+    category: "Baptême",
+    img: "../images/bapteme/bapteme1.jpg",
+    alt: "Photo de baptême",
+  },
+  {
+    id: 24,
+    category: "Baptême",
+    img: "../images/bapteme/bapteme2.jpg",
+    alt: "Photo de baptême",
+    },
+  {
+    id: 25,
+    category: "Baptême",
+    img: "../images/bapteme/bapteme3.jpg",
+    alt: "Photo de baptême",
+    },
+  {
+    id: 26,
+    category: "Baptême",
+    img: "../images/bapteme/bapteme4.jpg",
+    alt: "Photo de baptême",
+    },
+  {
+    id: 27,
+    category: "Baptême",
+    img: "../images/bapteme/bapteme5.jpg",
+    alt: "Photo de baptême",
+    },
   //   FAMILY CATEGORY
   {
     id: 1,
@@ -18,82 +281,35 @@ const display = [
     id: 3,
     category: "Family",
     img: "../images/family/family4.jpg",
-    alt: "photo de Mariage",
+    alt: "Photo de famille",
   },
   {
     id: 4,
     category: "Family",
     img: "../images/family/family5.jpg",
-    alt: "photo de Mariage",
+    alt: "Photo de famille",
   },
   {
     id: 5,
     category: "Family",
     img: "../images/family/family6.jpg",
-    alt: "photo de Mariage",
+    alt: "Photo de famille",
   },
   {
     id: 6,
     category: "Family",
     img: "../images/family/family7.jpg",
-    alt: "photo de Mariage",
+    alt: "Photo de famille",
   },
   {
     id: 7,
     category: "Family",
     img: "../images/family/family9.jpg",
-    alt: "photo de Mariage",
-  },
-  //   MARIAGE CATEGORY
-  {
-    id: 8,
-    category: "Mariage",
-    img: "../images/mariage/mariage1.jpg",
-    alt: "photo de Mariage",
-  },
-  {
-    id: 9,
-    category: "Mariage",
-    img: "../images/mariage/mariage2.jpg",
-    alt: "photo de Mariage",
-  },
-  {
-    id: 10,
-    category: "Mariage",
-    img: "../images/mariage/mariage3.jpg",
-    alt: "photo de Mariage",
-  },
-  {
-    id: 11,
-    category: "Mariage",
-    img: "../images/mariage/mariage4.jpg",
-    alt: "photo de Mariage",
-  },
-  {
-    id: 12,
-    category: "Mariage",
-    img: "../images/mariage/mariage5.jpg",
-    alt: "photo de Mariage",
-  },
-  {
-    id: 13,
-    category: "Mariage",
-    img: "../images/mariage/mariage6.jpg",
-    alt: "photo de Mariage",
-  },
-  {
-    id: 14,
-    category: "Mariage",
-    img: "../images/mariage/mariage7.jpg",
-    alt: "photo de Mariage",
-  },
-  {
-    id: 15,
-    category: "Mariage",
-    img: "../images/mariage/mariage8.jpg",
-    alt: "photo de Mariage",
+    alt: "Photo de famille",
   },
 ];
+
+
 // ci dessous on recupere la section dans laquelle nous allons implanter nos photos via notre code
 const sectionCenter = document.querySelector(".maincontent");
 const container = document.querySelector(".container-btn");
@@ -146,7 +362,7 @@ function displayPhotoBttons() {
         }
       });
 
-      if (category === "all") {
+      if (category === "All") {
         displayPhotoItems(display);
       } else {
         displayPhotoItems(displaycategory);
