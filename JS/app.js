@@ -312,6 +312,7 @@ const display = [
 ];
 
 
+
 // ci dessous on recupere la section dans laquelle nous allons implanter nos photos via notre code
 const sectionCenter = document.querySelector(".maincontent");
 const container = document.querySelector(".container-btn");
