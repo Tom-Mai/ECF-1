@@ -23,9 +23,8 @@ h2{
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     height: max-content;
-
 }
-@media (min-width:770px){ 
+@media (min-width:768px){ 
  .maincontent{
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20%;
@@ -44,9 +43,7 @@ display: none;
 .small_screen .card{
     margin-top: 1rem;
 }
-
 .card{
-
     transition: all .5s ease-in-out;
 }
 /* .card:hover{
@@ -61,4 +58,9 @@ display: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom-right-radius: 25%;
 
+}
+@media (max-width:500px) {
+    .btn-next,.btn-prev{
+        display: none;
+    }
 }
