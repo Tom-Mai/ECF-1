@@ -65,7 +65,7 @@ onload = () => {
 }
 function displayData(displayItems){
     let displayCards = displayItems.map(function(item){
-        return ` <div class="card slide">
+        return `<div class="card slide">
         <img
           src=${item.img}
           class="card-img-top"
