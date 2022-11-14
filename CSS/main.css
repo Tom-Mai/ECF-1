@@ -64,8 +64,8 @@ a:hover{
 }
 /* MEDIA NAVBAR BORDER */
 
-/* @media (min-width:440px) {
+@media (min-width:440px) {
     .navbar-item{
-        border: none;
+        border-inline-end: 0.1px solid #dee2e6;
     }
-} */
+}
