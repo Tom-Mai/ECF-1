@@ -28,31 +28,31 @@
 
   <body class="bg-light">
     <!--Nav collapse à mettre-->
-    <div
-      class="container-fluid justify-content--md-center pt-5 container-sm-fluid"
-    >
-      <div class="header row row-cols-sm-1">
-        <nav class="navbar mb-sm-5 row-10">
-          <div
-            class="container justify-content-around justify-content-sm-between"
-          >
-            <div class="navbar-item border-end pe-5">
-              <a href="#">About me</a>
-            </div>
-            <div class="navbar-item border-end pe-5">
-              <a href="../HTML/portfolio.html">Porfolio</a>
-            </div>
-            <div class="navbar-item border-end pe-5">
-              <a href="../HTML/pricesPage.html">Price</a>
-            </div>
-            <div class="navbar-item border-end pe-5">
-              <a href="#">Contact</a>
-            </div>
-          </div>
-        </nav>
+    <div class="header container-fluid container-sm-fluid pt-5">
+      <!-- nedd collapse small screen -->
+      <div class="row row-cols-sm-1">
+          <nav class="navbar mb-sm-5 row-10">
+              <div class="container justify-content-around justify-content-sm-between">
+                  <div class="navbar-item border-end pe-5">
+                      <a href="./aboutme.html"><p>About me</p></a>
+                  </div>
+                  <div class="navbar-item border-end pe-5">
+                      <a href="./portfolio.html"><p>Portfolio</p></a>
+                  </div>
+                  <div class="navbar- pe-5 border-end logoHomepage">
+                      <a href="./homepage.html"><img  id="logoNav" src="/images/arcticons_aicamera.svg" alt=""><p>Homepage</p></a>
+                  </div>
+                  <div class="navbar-item border-end pe-5">
+                      <a href="./pricepage.html"><p>Price</p></a>
+                  </div>
+                  <div class="navbar-item border-end pe-5">
+                      <a href="./contact.html"><p>Contact</p></a>
+                  </div>
+                  
+              </div>
+          </nav>
       </div>
-    </div>
-
+  </div>
     <div class="container mt-5">
       <div class="pricetitle row text-center">
         <h2>TARIFS</h2>
@@ -61,7 +61,7 @@
     <!-- MAINCONTENT -->
     <div class="container-fluid d-flex justify-content-center">
       <button class="btn btn-prev slide-arrow mx-0" id="slide-arrow-prev">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewbox="0 0 16 16">
           <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
         </svg></button>
       <div class="maincontent row h-100 mx-5 pt-5">
