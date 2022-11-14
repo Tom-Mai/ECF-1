@@ -24,54 +24,32 @@ h2{
     -moz-transition: all .5s ease;
     height: max-content;
 }
-@media (min-width:768px){ 
- .maincontent{
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    /* border-top-left-radius: 20%;
-    border-top-right-radius: 20%; */
-
-    width: 60vh;
-    height: max-content;
-    display: flex;
-}
+.card{
+    margin-top: 1rem;
+    min-width: 100%;
+    transition: all .5s ease-in-out; 
 }
 
-@media (min-width:768px) {
-    .small_screen{
-display: none;
-        /* overflow: scroll;
-        scroll-behavior: smooth; */
+/* MEDIA */
+
+@media (min-width : 700px){
+    .slides-container{
+        display: flex;
+        justify-content: start;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        transition: all .5s ease;
+    }
+    .maincontent{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 60vh;
+        height: max-content;
+        display: flex;
     }
 }
-.small_screen .card{
-    margin-top: 1rem;
-}
-.card{
-    min-width: 100%;
-    transition: all .5s ease-in-out;
-}
-.slides-container {
-    overflow: scroll;
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-/* .card:hover{
-    transform: scale(1.05);
-
-} */
-
-.pricetitle h2:hover{
-    cursor: default;
-}
-.pricetitle h2 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom-right-radius: 25%;
-
-}
-
 /*SLIDE ARROW */
 
 @media (max-width:500px) {
