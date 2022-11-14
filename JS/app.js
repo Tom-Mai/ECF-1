@@ -309,13 +309,7 @@ const display = [
     img: "../images/family/family9.jpg",
     alt: "Photo de famille",
   },
-  {
-    id: 50,
-    category: "CACA",
-    img: "../images/family/family9.jpg",
-    alt: "Photo de famille",
-  },
-  
+
 ];
 
 
