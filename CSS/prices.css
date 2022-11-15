@@ -61,7 +61,7 @@ h2{
 }
 /*SLIDE ARROW */
 
-@media (max-width:500px) {
+@media (max-width:700px) {
     .btn-next,.btn-prev{
         display: none;
     }
