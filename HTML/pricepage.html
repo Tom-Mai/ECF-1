@@ -31,28 +31,36 @@
     <div class="header container-fluid container-sm-fluid pt-5">
       <!-- nedd collapse small screen -->
       <div class="row row-cols-sm-1">
-          <nav class="navbar mb-sm-5 row-10">
-              <div class="container justify-content-around justify-content-sm-between">
-                  <div class="navbar-item  pe-5">
-                      <a href="./aboutme.html"><p>About me</p></a>
-                  </div>
-                  <div class="navbar-item  pe-5">
-                      <a href="./portfolio.html"><p>Portfolio</p></a>
-                  </div>
-                  <div class="navbar-item pe-5  logoHomepage">
-                      <a href="./homepage.html"><img  id="logoNav" src="/images/arcticons_aicamera.svg" alt=""><p>Homepage</p></a>
-                  </div>
-                  <div class="navbar-item  pe-5">
-                      <a href="./pricepage.html"><p>Price</p></a>
-                  </div>
-                  <div class="navbar-item  pe-5">
-                      <a href="./contact.html"><p>Contact</p></a>
-                  </div>
-                  
-              </div>
-          </nav>
+        <nav class="navbar mb-sm-5 row-10">
+          <div
+            class="container justify-content-around justify-content-sm-between"
+          >
+            <div class="navbar-item pe-5">
+              <a href="./aboutme.html"><p>About me</p></a>
+            </div>
+            <div class="navbar-item pe-5">
+              <a href="./portfolio.html"><p>Portfolio</p></a>
+            </div>
+            <div class="navbar-item pe-5 logoHomepage">
+              <a href="./homepage.html"
+                ><img
+                  id="logoNav"
+                  src="/images/arcticons_aicamera.svg"
+                  alt=""
+                />
+                <p>Homepage</p></a
+              >
+            </div>
+            <div class="navbar-item pe-5">
+              <a href="./pricepage.html"><p>Price</p></a>
+            </div>
+            <div class="navbar-item pe-5">
+              <a href="./contact.html"><p>Contact</p></a>
+            </div>
+          </div>
+        </nav>
       </div>
-  </div>
+    </div>
     <div class="container mt-5">
       <div class="pricetitle row text-center">
         <h2>TARIFS</h2>
@@ -61,105 +69,40 @@
     <!-- MAINCONTENT -->
     <div class="container-fluid d-flex justify-content-center">
       <button class="btn btn-prev slide-arrow mx-0" id="slide-arrow-prev">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewbox="0 0 16 16">
-          <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-        </svg></button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-caret-left-fill"
+          viewbox="0 0 16 16"
+        >
+          <path
+            d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+          />
+        </svg>
+      </button>
       <div class="maincontent row h-100 mx-5 pt-5">
-        <div id="slides-container" class="slides-container cardDisplay justify-content-start">
-          
-        </div>
+        <div
+          id="slides-container"
+          class="slides-container cardDisplay justify-content-start"
+        ></div>
       </div>
-      <!-- <div class="maincontent">
-        <div class="row h-100 mx-5 pt-5">
-          <div id="slides-container" class="col d-flex slides-container cardDisplay justify-content-start">
-            <!-- <div class="col card slide">
-              <img
-                src="../images/pricepic/solo.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body text-center text-center">
-                <h5 class="card-title">Juste moi</h5>
-                <p class="card-text">
-                  Séance pour une personne, en extérieur ou en studio.
-                </p>
-                <button class="btn">130€</button>
-              </div>
-            </div> -->
-          <!-- </div> -->
 
-          <!-- SMALL SCREEN PRICE -->
-          <!-- <div class="small_screen">
-            <div class="col d-flex justify-content-center">
-              <div class="card">
-                <img
-                  src="../images//family/family1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Famille</h5>
-                  <p class="card-text">
-                    Pour la famille ou les amis jusqu’à 4 personnes, en
-                    extérieur ou en studio 30 euros en supplément par personne
-                    au-delà de 4 (hormis enfant jusqu’à 2 ans).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-              <div class="card">
-                <img
-                  src="../images/grossesse/grossesse1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Il était une fois</h5>
-                  <p class="card-text">
-                    Photo de grossesse (À votre domicile, en extérieur ou en
-                    studio).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-              <div class="card">
-                <img
-                  src="../images/bebe/bebe1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">Mon bébé</h5>
-                  <p class="card-text">
-                    Photo d’enfant jusqu’à 3 ans (photo à domicile).
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col d-flex justify-content-center">
-              <div class="card">
-                <img
-                  src="../images/bapteme/bapteme1.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body text-center">
-                  <h5 class="card-title">J’immortalise l’événement</h5>
-                  <p class="card-text">
-                    sur mesure Prestation de mariage ou baptême.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <button class="btn btn-next slide-arrow mx-0" id="slide-arrow-next"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-      </svg></button>
-      
+      <button class="btn btn-next slide-arrow mx-0" id="slide-arrow-next">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-caret-right-fill"
+          viewbox="0 0 16 16"
+        >
+          <path
+            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+          />
+        </svg>
+      </button>
     </div>
 
     <!-- FOOTER -->
