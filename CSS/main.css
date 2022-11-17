@@ -58,8 +58,12 @@ a:hover{
 }
 @media (min-width: 600px) {
     #btn-back-to-top {
-        right: 5em;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
 }
+}
+
 /* MEDIA */
 /* logo nav */
 .nav-link p{
