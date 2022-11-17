@@ -56,6 +56,10 @@ a:hover{
   display: none;
 
 }
+@media (min-width: 600px) {
+    #btn-back-to-top {
+        right: 5em;
+}
 /* MEDIA */
 /* logo nav */
 .nav-link p{
