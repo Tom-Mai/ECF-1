@@ -25,9 +25,10 @@ a{
 }
 
 
-p , a, .btn {
+p , a, .btn, li {
     font-family:'Raleway', sans-serif;
     font-size: 1.5rem;
+    
 }
 a:hover{
     color: black;
@@ -49,6 +50,10 @@ a:hover{
 }
 /* MEDIA */
 /* logo nav */
+.nav-link p{
+   margin-bottom:0;
+    padding: auto;
+}
 .imgLogo{
     --bs-card-bg: none;
 }
@@ -58,7 +63,7 @@ a:hover{
     }
 }
 @media (min-width:580px) {
-    .logoHomepage p {
+    .nav-link p {
         display: none;
     }
 }
