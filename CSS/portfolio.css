@@ -24,11 +24,11 @@ h2{
 .btn{
     transition: .5 all ease-in-out;
 }
-.btn:hover{
+.container-btn .btn:hover{
  transform: scale(1.1);
  background-color:#DCDCDC;
 }
-.btn:focus{
+.container-btn .btn:focus{
     background-color: #DCDCDC;
 }
 

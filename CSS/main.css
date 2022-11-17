@@ -51,9 +51,10 @@ a:hover{
 /* BUTTON BACK TO TOP  */
 #btn-back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 40px;
+  right: 10px;
   display: none;
+
 }
 /* MEDIA */
 /* logo nav */
