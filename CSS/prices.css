@@ -5,24 +5,27 @@ h2{
     -moz-transition: all .5s ease;
     transition: all .5s ease;
 }
+.pricetitle h2 {
+    cursor: default;
+}
 
 @media (min-width:769px){
     h2{
         font-size: 10rem;
         margin-bottom: 20rem;
         
-    }.pricetitle h2:hover{
-        cursor: default;
     }
     .pricetitle h2 {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         border-bottom-right-radius: 25%;
-    
     }
+
 }
+
 @media (min-width:850px) {
     h2{
         margin-bottom: 10rem;
+  
     }
 }
 /* BORDER */
@@ -51,9 +54,10 @@ h2{
         margin: 0;
         width: 100%;
         transition: all .5s ease;
+
     }
     .maincontent{
-        border: 1px solid rgba(0, 0, 0, 0.1);
+   
         width: 60vh;
         height: max-content;
         display: flex;

@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="../CSS/homepage.css" />
   </head>
 
-  <body id="Homepage">
+  <body id="Homepage" >
     <button
       type="button"
       class="btn btn-danger btn-floating btn-lg"
@@ -34,49 +34,12 @@
     >
       <em class="fas fa-arrow-up"></em>
     </button>
-    <nav class="navbar navbar-expand-sm mb-sm-5 row-10">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-center" id="navbarNav">
-        <ul
-          class="navbar-nav w-100 justify-content-around mr-auto mt-2 mt-lg-0"
-        >
-          <li class="nav-item">
-            <a href="./aboutme.html" class="nav-link">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./homepage.html"
-              ><img id="logoNav" src="/images/arcticons_aicamera.svg" alt="" />
-              <p>Homepage</p></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pricepage.html">Price</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
     <!-- LOGO -->
-    <div id="mainContentHomepage" class=" container logo">
-      <div class="row">
-        <div class="col-12">
-          <div class="imgLogo card h-100 mx-auto bg-0">
+    <div id="mainContentHomepage" class="container-fluid logo h-100">
+      <div class="row navRow">
+        <div class="row logorow">
+          <div class="imgLogo card bg-0">
             <img
               src="../images/Group 1 (1).png"
               alt="Charles Cantin Photographe professionnel"
@@ -84,8 +47,49 @@
             <!-- Logo à retravailler ne pas avoir de bordures. -->
           </div>
         </div>
+        <nav class="navbar navbar-expand-sm mb-sm-5 row-10">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul
+              class="navbar-nav w-100 justify-content-around mr-auto mt-2 mt-lg-0"
+            >
+              <li class="nav-item">
+                <a href="./aboutme.html" class="nav-link">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./homepage.html"
+                  ><img  id="logoNav" src="/images/arcticons_aicamera.svg" alt="" />
+                  <p>Homepage</p></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pricepage.html">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
       </div>
+     
     </div>
+    
 
     <div class="container-fluid">
       <div class="row footer bg-dark fixed-bottom">
