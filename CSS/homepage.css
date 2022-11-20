@@ -16,6 +16,7 @@ body{
 
 .navbar {
     height: fit-content;
+padding-right:6.1rem;
 }
 .logorow{
     position: absolute;

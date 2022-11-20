@@ -81,6 +81,8 @@ a:hover{
 @media (min-width:580px) {
     .nav-link p {
         display: none;
+    }.navbar{
+        padding-right:6.1rem;
     }
 }
 /* MEDIA NAVBAR BORDER */
