@@ -72,11 +72,29 @@
       </div>
     </nav>
 <div class="container formcontainer w-75">
-    <div class="form-group ">
-      <label for="emailInput">Adresse mail</label>
-      <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-
+  <form action="">  
+    <div class="form-row rowNAme d-flex">
+    <div class="col-7 pe-1" >
+      <label class="sr-only"  for="nameInput">Nom</label>
+      <input cla type="text" name="name" required  class="form-control-plaintext" id="nameInput" placeholder="Nom">
     </div>
+    <div class="col">
+      <label class="sr-only" for="firstnameInput">Prénom</label>
+      <input type="text" required class="form-control-plaintext" id="firstnameInput" placeholder="Prénom">
+    </div>
+    </div>
+    <div class="form-row">
+      <div class="col">
+        <label class="sr-only" for="emailInput">Adresse mail</label>
+        <input type="email" class="form-control-plaintext" id="emailInput" placeholder="name@example.com">
+      </div>
+      <div class="col">
+        <label class="sr-only" for="phoneInput">Phone</label>
+        <input type="tel" required class="form-control-plaintext" id="phoneInput" placeholder="Telephone">
+      </div>
+    </div>
+ <button class="btn" type="submit">Submit</button>
+    </form>
 </div>
         <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -93,6 +111,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="../JS/form.js"></script>
     <script src="../JS/scrollButton.Js"></script>
   </body>
 </html>
