@@ -1,10 +1,12 @@
 .formcontainer{
    height: fit-content;
-    margin-top: ;
+   margin-top: 25vh;
+
 }
-.form-row > *{
+/* .form-row > *{
     padding-bottom: 0.5rem;
-}
+} */
 .form-control-plaintext{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+

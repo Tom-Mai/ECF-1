@@ -71,10 +71,10 @@
         </ul>
       </div>
     </nav>
-<div class="container formcontainer w-75">
+<div class="container shadow-sm formcontainer w-75">
   <form action="">  
     <div class="form-row rowNAme d-flex">
-    <div class="col-7 pe-1" >
+    <div class="col-6 pe-1" >
       <label class="sr-only"  for="nameInput">Nom</label>
       <input cla type="text" name="name" required  class="form-control-plaintext" id="nameInput" placeholder="Nom">
     </div>
@@ -84,7 +84,7 @@
     </div>
     </div>
     <div class="form-row">
-      <div class="col">
+      <div class="col pe-1">
         <label class="sr-only" for="emailInput">Adresse mail</label>
         <input type="email" class="form-control-plaintext" id="emailInput" placeholder="name@example.com">
       </div>
@@ -93,8 +93,22 @@
         <input type="tel" required class="form-control-plaintext" id="phoneInput" placeholder="Telephone">
       </div>
     </div>
-    <div class="form-row">
-      <label class="sr-only" for="inputPrice">Tarifs</label>
+    <div class="form-row d-flex mt-3">
+      <div class="col">
+        <div class="form-check-plaintext">
+          <label class="form-check-label me-4 align-middle" for="gridCheck1">J'ai déjà choisis un tarifs</label>
+          <input 
+          type="checkbox"
+          id="gridCheck1"
+          onclick="displayChecked()"
+          class="form-check-input align-middle"
+          >
+        </div>
+      </div>
+    </div>
+    <div class="form-row mt-2">
+      <div class="col">
+      <label class="sr-only " for="inputPrice">Tarifs</label>
       <select name="tarifs" id="inputPrice" class="form-control-plaintext">
         <option value="option1">Juste moi</option>
         <option value="option">Famille</option>
@@ -102,6 +116,8 @@
         <option value="option3">Mon bébé</option>
         <option value="option4">J'immortalise l'événement</option>
       </select>
+    </div>
+    
     </div>
  <button class="btn" type="submit">Submit</button>
     </form>
