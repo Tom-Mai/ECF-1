@@ -71,58 +71,130 @@
         </ul>
       </div>
     </nav>
-<div class="container shadow-sm formcontainer w-75">
-  <form action="">  
-    <div class="form-row rowNAme d-flex">
-    <div class="col-6 pe-1" >
-      <label class="sr-only"  for="nameInput">Nom</label>
-      <input cla type="text" name="name" required  class="form-control-plaintext" id="nameInput" placeholder="Nom">
-    </div>
-    <div class="col">
-      <label class="sr-only" for="firstnameInput">Prénom</label>
-      <input type="text" required class="form-control-plaintext" id="firstnameInput" placeholder="Prénom">
-    </div>
-    </div>
-    <div class="form-row">
-      <div class="col pe-1">
-        <label class="sr-only" for="emailInput">Adresse mail</label>
-        <input type="email" class="form-control-plaintext" id="emailInput" placeholder="name@example.com">
-      </div>
-      <div class="col">
-        <label class="sr-only" for="phoneInput">Phone</label>
-        <input type="tel" required class="form-control-plaintext" id="phoneInput" placeholder="Telephone">
-      </div>
-    </div>
-    <div class="form-row d-flex mt-3">
-      <div class="col">
-        <div class="form-check-plaintext">
-          <label class="form-check-label me-4 align-middle" for="gridCheck1">J'ai déjà choisis un tarifs</label>
-          <input 
-          type="checkbox"
-          id="gridCheck1"
-          onclick="displayChecked()"
-          class="form-check-input align-middle"
-          >
+    <div class="container shadow-sm formcontainer w-75">
+      <form action="">
+        <div class="form-row rowNAme d-flex">
+          <div class="col-6 pe-1">
+            <label class="sr-only" for="nameInput">Nom</label>
+            <input
+              cla
+              type="text"
+              name="name"
+              required
+              class="form-control-plaintext"
+              id="nameInput"
+              placeholder="Nom"
+            />
+          </div>
+          <div class="col">
+            <label class="sr-only" for="firstnameInput">Prénom</label>
+            <input
+              type="text"
+              required
+              class="form-control-plaintext"
+              id="firstnameInput"
+              placeholder="Prénom"
+            />
+          </div>
         </div>
-      </div>
+        <div class="form-row">
+          <div class="col pe-1">
+            <label class="sr-only" for="emailInput">Adresse mail</label>
+            <input
+              type="email"
+              class="form-control-plaintext"
+              id="emailInput"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="col">
+            <label class="sr-only" for="phoneInput">Phone</label>
+            <input
+              type="tel"
+              required
+              class="form-control-plaintext"
+              id="phoneInput"
+              placeholder="Telephone"
+            />
+          </div>
+        </div>
+        <div class="form-row d-flex mt-3">
+          <div class="col">
+            <div class="form-check-plaintext">
+              <label class="form-check-label me-4 align-middle" for="gridCheck1"
+                >J'ai déjà choisis un tarifs</label
+              >
+              <input
+                type="checkbox"
+                id="gridCheck1"
+                onclick="displayChecked()"
+                class="form-check-input align-middle"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-row mt-2">
+          <div class="col">
+            <label class="sr-only" for="inputPrice">Tarifs</label>
+            <select
+              name="tarifs"
+              id="inputPrice"
+              class="form-control-plaintext"
+            >
+              <option value="option">Juste moi</option>
+              <option value="option1">Famille</option>
+              <option value="option2">Il était une fois</option>
+              <option value="option3">Mon bébé</option>
+              <option value="option4">J'immortalise l'événement</option>
+            </select>
+            <div id="option" class="card showDiv" style="display: none">
+              <div class="card-body">
+                <h5 class="card-title">Juste moi</h5>
+                <p class="card-text">
+                  Séance pour une personne, en extérieur ou en studio.
+                </p>
+              </div>
+            </div>
+            <div id="option1" class="card showDiv" style="display: none">
+              <div class="card-body">
+                <h5 class="card-title">Famille</h5>
+                <p class="card-text">
+                  Pour la famille ou les amis jusqu’à 4 personnes, en extérieur
+                  ou en studio 30 euros en supplément par personne au-delà de 4
+                  (hormis enfant jusqu’à 2 ans).
+                </p>
+              </div>
+            </div>
+            <div id="option2" class="card showDiv" style="display: none">
+              <div class="card-body">
+                <h5 class="card-title">Il était une fois</h5>
+                <p class="card-text">
+                  Photo de grossesse (À votre domicile, en extérieur ou en studio).
+                </p>
+              </div>
+            </div>
+            <div id="option3" class="card showDiv" style="display: none">
+              <div class="card-body">
+                <h5 class="card-title">Mon bébé</h5>
+                <p class="card-text">Photo d’enfant jusqu’à 3 ans (photo à domicile).
+                </p>
+              </div>
+            </div>
+            <div id="option4" class="card showDiv" style="display: none">
+              <div class="card-body">
+                <h5 class="card-title">J'immortalise le moment'</h5>
+                <p class="card-text">sur mesure Prestation de mariage ou baptême.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button class="btn" type="submit">Submit</button>
+      </form>
     </div>
-    <div class="form-row mt-2">
-      <div class="col">
-      <label class="sr-only " for="inputPrice">Tarifs</label>
-      <select name="tarifs" id="inputPrice" class="form-control-plaintext">
-        <option value="option1">Juste moi</option>
-        <option value="option">Famille</option>
-        <option value="option2">Il était une fois</option>
-        <option value="option3">Mon bébé</option>
-        <option value="option4">J'immortalise l'événement</option>
-      </select>
-    </div>
-    
-    </div>
- <button class="btn" type="submit">Submit</button>
-    </form>
-</div>
-        <script
+
+    <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"

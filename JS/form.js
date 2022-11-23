@@ -3,17 +3,25 @@ function setFocusToNameInput() {
     document.querySelector("#nameInput").focus();
 }
 setFocusToNameInput()
-
-
+const selectInput =  document.querySelector("#inputPrice");
+const checkbox = document.querySelector("#gridCheck1");
+const paragraph = document.querySelector(".showDiv");
+const select = document.querySelectorAll('option');
+console.log(select);
 function displayChecked() {
-    const checkbox = document.querySelector("#gridCheck1");
-    const selectInput =  document.querySelector("#inputPrice");
      if(checkbox.checked === true) {
         selectInput.style.display = "block";
+        paragraph.style.display = "block";
      }else {
         selectInput.style.display = "none";
+        paragraph.style.display = "none";
      }
-     console.log(selectInput.innerHTML);
 }
 displayChecked();
-
+// do in js later
+$(function(){
+   $('#inputPrice').change(function(){
+      $('.showDiv').hide();
+      $('#' + $(this).val()).show();
+   });
+});
