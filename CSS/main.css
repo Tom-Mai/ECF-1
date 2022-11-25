@@ -58,6 +58,20 @@ a:hover{
 
 }
 
+/* Button navbar-toggler */
+.navbar-toggler{
+    border: none;
+    transition: all 0.1s ease;
+    --bs-navbar-toggler-border-color:none;
+    --bs-navbar-toggler-border-radius:0;
+    --bs-navbar-toggler-border-radius:0;
+    --bs-navbar-toggler-focus-width: 0;
+    --bs-navbar-toggler-focus-border: none;
+}
+
+.navbar-toggler:hover{
+    transform: scale(1.1);
+}
 .nav-link p{
     margin-bottom:0;
      padding: auto;
