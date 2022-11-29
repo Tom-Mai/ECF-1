@@ -10,3 +10,32 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+h2{
+    font-size: 5rem;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.pricetitle h2 {
+    cursor: default;
+}
+
+@media (min-width:769px){
+    h2{
+        font-size: 10rem;
+        margin-bottom: 1rem;
+        
+    }
+    .pricetitle h2 {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom-right-radius: 25%;
+    }
+
+}
+
+@media (min-width:850px) {
+    h2{
+        margin-bottom: 1rem;
+  
+    }
+}
