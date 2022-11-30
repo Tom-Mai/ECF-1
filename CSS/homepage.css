@@ -2,27 +2,21 @@ body{
     background-image: url(../images/pexels-wouter-de-jong-571169.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 /*   */
-
 .card{
     border: none;
 }
-
 /* .footer{
     margin-top: 50rem;
 } */
-
 .navbar {
     height: fit-content;
-
 }
 .logorow{
     position: absolute;
     height: 100%;
     align-items: center;
-
 }
 .imgLogo{
    width: 250px;

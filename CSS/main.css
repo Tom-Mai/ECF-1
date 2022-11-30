@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 1vh;
-
 }
 :root{
     --typo-color : #251f1f;
     --bg : #f2f2f2;
     --bs-navbar-color: #251f1f;
-
 }
 body, html {
     height: 100vh;
@@ -23,8 +21,6 @@ a{
     color: var(--typo-color);
     transition: all .1s ease-in-out; 
 }
-
-
 p , a, .btn, li {
     font-family:'Raleway', sans-serif;
     font-size: 1.5rem;
@@ -43,7 +39,6 @@ a:hover{
     padding: 0;
     background-color: #251f1f;
     margin-top: 10em;    
-
 }
 .footer p {
     padding: 0;
@@ -55,9 +50,7 @@ a:hover{
   bottom: 50px;
   right: 10px;
   display: none;
-
 }
-
 /* Button navbar-toggler */
 .navbar-toggler{
     border: none;
@@ -68,7 +61,6 @@ a:hover{
     --bs-navbar-toggler-focus-width: 0;
     --bs-navbar-toggler-focus-border: none;
 }
-
 .navbar-toggler:hover{
     transform: scale(1.1);
 }
@@ -100,7 +92,6 @@ a:hover{
     }
 }
 /* MEDIA NAVBAR BORDER */
-
 @media (min-width:440px) {
     .navbar-item{
         border-inline-end: 0.1px solid #dee2e6;

@@ -1,4 +1,3 @@
-
 /* TITLE */
 h2{
     font-size: 5rem;
@@ -6,10 +5,7 @@ h2{
     -moz-transition: all .5s ease;
     transition: all .5s ease;
 }
-.photoh2 h2{
 
-    border-bottom-right-radius: 25%;
-}
 .photoh2 h2{
     cursor: default;
 }
@@ -17,9 +13,19 @@ h2{
 @media (min-width:769px){
     h2{
         font-size: 10rem;
+        margin-bottom: 1rem;
+    }
+    .photoh2 h2{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom-right-radius: 25%;
     }
 }
-
+@media (min-width:850px) {
+    h2{
+        margin-bottom: 1rem;
+  
+    }
+}
 /* BUTTON */
 .btn{
     transition: .5 all ease-in-out;
@@ -31,9 +37,7 @@ h2{
 .container-btn .btn:focus{
     background-color: #DCDCDC;
 }
-
 /* if a black border is active when we mousedown on the btn its because there wasn't this css class ->  */
 .btn:active, .btn:focus{ 
  border: none;
 }
-
