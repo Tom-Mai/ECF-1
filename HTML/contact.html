@@ -63,7 +63,7 @@
   </div>
   <!-- Main content -->
   <div class="container shadow-lg formcontainer">
-    <form action="submit" class="form-contact">
+    <form action="https://formspree.io/f/meqdbbdy" method="POST" id="form-contact" name="form-contact" class="form-contact">
       <div class="contact-nav">
         <h5 class="contact-nav__item">
           Me contacter
@@ -144,7 +144,7 @@
           </div>
           <div id="option4" class="card showDiv" style="display: none">
             <div class="card-body">
-              <h5 class="card-title">J'immortalise le moment'</h5>
+              <h5 class="card-title">J'immortalise le moment</h5>
               <p class="card-text">sur mesure Prestation de mariage ou baptême.
               </p>
             </div>
@@ -153,10 +153,14 @@
       </div>
       <div class="form-row">
         <label for="commentaire" class="contact__label">commentaire</label>
-        <textarea class="form-control-plaintext contact__input" id="commentaire" rows="6"> </textarea>
+        <input form="form-contact" name="form-contact" autocomplete="" class="form-control-plaintext contact__input" id="commentaire" rows="6">
       </div>
-      <button class="btn" type="submit">Submit</button>
+      <button id="form-contact-button" class="btn">Submit</button>
+      <p id="my-form-status"></p>
     </form>
+
+    <!-- TEST -->
+    
   </div>
   <div class="container-fluid">
     <div class="row footer bg-dark">
