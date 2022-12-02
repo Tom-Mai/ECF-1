@@ -1,6 +1,4 @@
 // TODO : remove this array and put it in JSON format.
-
-
 // ci dessous : Array comprenant mes données à faire apparaitre. ici, nous avons des photos.
 const display = [
   // COUPLE CATEGORY
@@ -309,22 +307,15 @@ const display = [
     img: "../images/family/family9.jpg",
     alt: "Photo de famille",
   },
-
 ];
-
-
-
 // ci dessous on recupere la section dans laquelle nous allons implanter nos photos via notre code
 const sectionCenter = document.querySelector(".maincontent");
 const container = document.querySelector(".container-btn");
-
 //load items
-
 onload = (event) => {
   displayPhotoItems(display);
   displayPhotoBttons();
 };
-
 function displayPhotoItems(displayItems) {
   let displayPhoto = displayItems.map(function (item) {
     return `<div class="col-photo col d-flex justify-content-center">
@@ -338,7 +329,6 @@ function displayPhotoItems(displayItems) {
   //on met en HTML ce que nous venons de faire. ET VOILA
   sectionCenter.innerHTML = displayPhoto;
 }
-
 function displayPhotoBttons() {
   const categories = display.reduce(
     function (values, item) {
@@ -365,7 +355,6 @@ function displayPhotoBttons() {
           return displayItems;
         }
       });
-
       if (category === "All") {
         displayPhotoItems(display);
       } else {

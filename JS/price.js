@@ -45,12 +45,9 @@ const data = [
         price: "150",
     },
 ];
-
 const slideContainer = document.getElementById('slides-container');
-
 const prevButton = document.getElementById('slide-arrow-prev');
 const nextButton = document.getElementById('slide-arrow-next');
-
 onload = () => {
     displayData(data);
     const slide = document.querySelector('.slide');
