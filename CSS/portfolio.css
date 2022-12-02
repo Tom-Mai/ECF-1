@@ -5,7 +5,6 @@ h2{
     -moz-transition: all .5s ease;
     transition: all .5s ease;
 }
-
 .photoh2 h2{
     cursor: default;
 }
@@ -23,7 +22,6 @@ h2{
 @media (min-width:850px) {
     h2{
         margin-bottom: 1rem;
-  
     }
 }
 /* BUTTON */

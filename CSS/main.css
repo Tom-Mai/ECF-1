@@ -24,14 +24,12 @@ a{
 p , a, .btn, li {
     font-family:'Raleway', sans-serif;
     font-size: 1.5rem;
-    
 }
 a:hover{
     color: black;
     transform: scale(1.1);
 }
 .footer{
-    
     height: 5rem;
     color: #F0F0F0;
     align-items: center;
