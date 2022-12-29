@@ -50,12 +50,15 @@ function displayChecked() {
      }
 }
 displayChecked();
-// do in js later
-$(function(){
-   $('#inputPrice').change(function(){
-      $('.showDiv').hide();
-      $('#' + $(this).val()).show();
-   });
-});
 
+// Affiche l'élément avec l'identifiant correspodnant à la valeur actuelle de l'élément 'inputprice'
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('inputPrice').addEventListener('change', function() {
+    var showDivElements = document.querySelectorAll('.showDiv');
+    for (var i = 0; i < showDivElements.length; i++) {
+      showDivElements[i].style.display = 'none';
+    }
+    document.getElementById(this.value).style.display = 'block';
+  });
+});
 
