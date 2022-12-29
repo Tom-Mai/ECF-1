@@ -1,37 +1,31 @@
-/* Définition des variables CSS pour les couleurs couramment utilisées */
-:root {
-    --typo-color: #251f1f;
-    --bg: #f2f2f2;
-    --bs-navbar-color: #251f1f;
-  }
-  
-  /* Style général pour tous les éléments de la page */
-  * {
+/* Styles par défaut pour les éléments HTML */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1vh;
   }
   
-  /* Hauteur de la page */
+  /* Définition des variables CSS */
+  :root {
+    /* Couleur de la typographie */
+    --typo-color: #251f1f;
+    /* Couleur de fond */
+    --bg: #f2f2f2;
+    /* Couleur de la barre de navigation */
+    --bs-navbar-color: #251f1f;
+  }
+  
+  /* Styles pour le corps et le HTML */
   body,
   html {
     height: 100vh;
   }
   
-  /* Styles pour les titres */
+  /* Styles pour les titres de niveau 1 et 2 */
   h1,
   h2 {
-    font-family: "Flamenco", cursive;
-  }
-  
-  /* Styles pour les paragraphes, les liens et les boutons */
-  p,
-  a,
-  .btn,
-  li {
-    font-family: "Raleway", sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Flamenco', cursive;
   }
   
   /* Styles pour les liens */
@@ -42,16 +36,25 @@
     transition: all 0.1s ease-in-out;
   }
   
+  /* Styles pour les paragraphes, les liens et les boutons */
+  p,
+  a,
+  .btn,
+  li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+  }
+  
   /* Styles pour les liens au survol */
   a:hover {
     color: black;
     transform: scale(1.1);
   }
   
-  /* Styles pour le footer */
+  /* Styles pour le pied de page */
   .footer {
     height: 5rem;
-    color: #f0f0f0;
+    color: #F0F0F0;
     align-items: center;
     justify-content: space-around;
     padding: 0;
@@ -59,13 +62,13 @@
     margin-top: 10em;
   }
   
-  /* Styles pour les paragraphes du footer */
+  /* Styles pour les paragraphes du pied de page */
   .footer p {
     padding: 0;
     margin: 0;
   }
   
-  /* Styles pour le bouton "retour en haut" */
+  /* Styles pour le bouton "Retour en haut de page" */
   #btn-back-to-top {
     position: fixed;
     bottom: 50px;
@@ -73,60 +76,72 @@
     display: none;
   }
   
-  /* Styles pour le bouton de navigation (navbar-toggler) */
+  /* Styles pour le bouton de navigation */
   .navbar-toggler {
     border: none;
     transition: all 0.1s ease;
+    /* Couleur de bordure du bouton de navigation */
     --bs-navbar-toggler-border-color: none;
+    /* Rayon de bordure du bouton de navigation */
     --bs-navbar-toggler-border-radius: 0;
-    --bs-navbar-toggler-border-radius: 0;
-    --bs-navbar-toggler-focus-width: 0;
-    --bs-navbar-toggler-focus-border: none;
+    /* Rayon de bordure du bouton de navigation au focus */
+    --bs-navbar-toggler-focus-border-radius: 0;
+    /* Largeur de bordure du bouton
+  /* Styles pour le bouton de navigation au focus */
+--bs-navbar-toggler-focus-width: 0;
+/* Couleur de bordure du bouton de navigation au focus */
+--bs-navbar-toggler-focus-border: none;
+}
+
+/* Styles pour le bouton de navigation au survol */
+.navbar-toggler:hover {
+  transform: scale(1.1);
+}
+
+/* Styles pour les paragraphes des liens de navigation */
+.navbar .nav-link p {
+  margin-bottom: 0;
+  padding: auto;
+}
+
+/* Styles pour les cartes contenant le logo */
+.imgLogo {
+  /* Couleur de fond de la carte */
+  --bs-card-bg: none;
+}
+
+/* Media queries */
+
+/* Styles pour le logo de navigation */
+@media (min-width: 600px) {
+  #btn-back-to-top {
+    bottom: 40px;
+    right: 5em;
   }
-  
-  /* Styles pour le bouton de navigation au survol */
-  .navbar-toggler:hover {
-    transform: scale(1.1);
+}
+
+/* Styles pour le logo de navigation sur écrans de petite taille */
+@media (max-width: 580px) {
+  #logoNav {
+    display: none;
   }
-  
-  /* Styles pour les paragraphes des liens de navigation */
+}
+
+/* Styles pour les paragraphes des liens de navigation sur écrans de petite taille */
+@media (min-width: 580px) {
   .nav-link p {
-    margin-bottom: 0;
-    padding: auto;
+    display: none;
   }
-  
-  /* Styles pour les images du logo */
-  .imgLogo {
-    --bs-card-bg: none;
+  .navbar {
+    padding-right: 5.4rem;
   }
-  
-  /* Styles pour les media queries */
-  @media (min-width: 600px) {
-    #btn-back-to-top {
-      bottom: 40px;
-      right: 5em;
-    }
-  }
-  
-  @media (max-width: 580px) {
-    #logoNav {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 580px) {
-    .nav-link p {
-      display: none;
-    }
-    .navbar {
-      padding-right: 5.4rem;
-    }
-  }
-  
-  @media (min-width: 440px) {
+}
+
+/* Styles pour les éléments de la barre de navigation sur écrans de grande taille */
+@media (min-width: 440px) {
     .navbar-item {
+      /* Couleur de bordure verticale des éléments de la barre de navigation */
       border-inline-end: 0.1px solid #dee2e6;
     }
   }
-  
   
