@@ -1,97 +1,132 @@
-*{
+/* Définition des variables CSS pour les couleurs couramment utilisées */
+:root {
+    --typo-color: #251f1f;
+    --bg: #f2f2f2;
+    --bs-navbar-color: #251f1f;
+  }
+  
+  /* Style général pour tous les éléments de la page */
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1vh;
-}
-:root{
-    --typo-color : #251f1f;
-    --bg : #f2f2f2;
-    --bs-navbar-color: #251f1f;
-}
-body, html {
+  }
+  
+  /* Hauteur de la page */
+  body,
+  html {
     height: 100vh;
-}
-h1, h2{
-    font-family:'Flamenco', cursive;
-}
-a{
+  }
+  
+  /* Styles pour les titres */
+  h1,
+  h2 {
+    font-family: "Flamenco", cursive;
+  }
+  
+  /* Styles pour les paragraphes, les liens et les boutons */
+  p,
+  a,
+  .btn,
+  li {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  /* Styles pour les liens */
+  a {
     text-decoration: none;
     list-style: none;
     color: var(--typo-color);
-    transition: all .1s ease-in-out; 
-}
-p , a, .btn, li {
-    font-family:'Raleway', sans-serif;
-    font-size: 1.5rem;
-}
-a:hover{
+    transition: all 0.1s ease-in-out;
+  }
+  
+  /* Styles pour les liens au survol */
+  a:hover {
     color: black;
     transform: scale(1.1);
-}
-.footer{
+  }
+  
+  /* Styles pour le footer */
+  .footer {
     height: 5rem;
-    color: #F0F0F0;
+    color: #f0f0f0;
     align-items: center;
     justify-content: space-around;
     padding: 0;
     background-color: #251f1f;
-    margin-top: 10em;    
-}
-.footer p {
+    margin-top: 10em;
+  }
+  
+  /* Styles pour les paragraphes du footer */
+  .footer p {
     padding: 0;
     margin: 0;
-}
-/* BUTTON BACK TO TOP  */
-#btn-back-to-top {
-  position: fixed;
-  bottom: 50px;
-  right: 10px;
-  display: none;
-}
-/* Button navbar-toggler */
-.navbar-toggler{
+  }
+  
+  /* Styles pour le bouton "retour en haut" */
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    display: none;
+  }
+  
+  /* Styles pour le bouton de navigation (navbar-toggler) */
+  .navbar-toggler {
     border: none;
     transition: all 0.1s ease;
-    --bs-navbar-toggler-border-color:none;
-    --bs-navbar-toggler-border-radius:0;
-    --bs-navbar-toggler-border-radius:0;
+    --bs-navbar-toggler-border-color: none;
+    --bs-navbar-toggler-border-radius: 0;
+    --bs-navbar-toggler-border-radius: 0;
     --bs-navbar-toggler-focus-width: 0;
     --bs-navbar-toggler-focus-border: none;
-}
-.navbar-toggler:hover{
+  }
+  
+  /* Styles pour le bouton de navigation au survol */
+  .navbar-toggler:hover {
     transform: scale(1.1);
-}
-.nav-link p{
-    margin-bottom:0;
-     padding: auto;
- }
- .imgLogo{
-     --bs-card-bg: none;
- }
-/* MEDIA */
-/* logo nav */
-@media (min-width: 600px) {
+  }
+  
+  /* Styles pour les paragraphes des liens de navigation */
+  .nav-link p {
+    margin-bottom: 0;
+    padding: auto;
+  }
+  
+  /* Styles pour les images du logo */
+  .imgLogo {
+    --bs-card-bg: none;
+  }
+  
+  /* Styles pour les media queries */
+  @media (min-width: 600px) {
     #btn-back-to-top {
-  bottom: 40px;
-  right: 5em;
-}
-}
-@media (max-width:580px) {
-    #logoNav{
-        display: none;
+      bottom: 40px;
+      right: 5em;
     }
-}
-@media (min-width:580px) {
+  }
+  
+  @media (max-width: 580px) {
+    #logoNav {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 580px) {
     .nav-link p {
-        display: none;
-    }.navbar{
-        padding-right:5.4rem;
+      display: none;
     }
-}
-/* MEDIA NAVBAR BORDER */
-@media (min-width:440px) {
-    .navbar-item{
-        border-inline-end: 0.1px solid #dee2e6;
+    .navbar {
+      padding-right: 5.4rem;
     }
-}
+  }
+  
+  @media (min-width: 440px) {
+    .navbar-item {
+      border-inline-end: 0.1px solid #dee2e6;
+    }
+  }
+  
+  
