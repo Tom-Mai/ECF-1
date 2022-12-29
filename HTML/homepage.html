@@ -6,9 +6,17 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- Le meta tag "viewport" est utilisé pour contrôler la manière dont le contenu de la page est affiché sur les appareils mobiles. 
+     La valeur "width=device-width" indique que le contenu de la page doit s'adapter à la largeur de l'écran de l'appareil.
+     La valeur "initial-scale=1.0" indique que l'échelle initiale de la page doit être de 1.0, ce qui signifie que le contenu sera affiché à l'échelle normale. -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- J'ai choisi d'utiliser la police de caractères "Flamenco" pour les titres et la police de caractères "Raleway" pour le reste du contenu de la page.
+     Je trouve que ces polices de caractères ajoutent de la personnalité et de l'intérêt visuel à la page. -->
+
   <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300&family=Raleway&display=swap"
     rel="stylesheet" />
   <title>Document</title>
@@ -17,6 +25,11 @@
   <link rel="stylesheet" href="../CSS/homepage.css" />
 </head>
 <body id="Homepage">
+
+  <!-- Le bouton "retour en haut" est caché lorsque l'utilisateur se trouve en haut de la page, mais apparaît lorsque l'utilisateur scroll vers le bas.
+     Lorsque l'utilisateur clique sur le bouton, la page est automatiquement scrolée jusqu'en haut. 
+     Cette fonctionnalité est mise en place grâce à du JavaScript qui écoute l'événement "scroll" et modifie la visibilité du bouton en conséquence. -->
+
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
     <em class="fas fa-arrow-up"></em>
   </button>
@@ -29,6 +42,10 @@
           <!-- Logo à retravailler ne pas avoir de bordures. -->
         </div>
       </div>
+      <!-- J'ai d'abord créé le design de la barre de navigation en utilisant Bootstrap. 
+     Ensuite, j'ai ajouté le bouton "menu" qui permet à l'utilisateur de déplier le menu lorsqu'il est sur un appareil mobile. 
+     Enfin, j'ai ajouté la fonctionnalité de redirection des liens vers les différentes pages de mon site. -->
+
       <nav class="navbar navbar-expand-sm mb-sm-5">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
